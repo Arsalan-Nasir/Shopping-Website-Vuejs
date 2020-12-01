@@ -2,9 +2,9 @@ FROM node:12-alpine
 
 WORKDIR /app
 
-EXPOSE 8080
+EXPOSE 8000
 
 COPY . .
 
 RUN npm install
-CMD npm run serve 
+CMD npm run dev
